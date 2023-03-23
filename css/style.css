@@ -8,10 +8,11 @@ body{
  background: linear-gradient(190deg, rgb(136, 183, 214), transparent);
    
 }
-
+/*
 #general{
     font-size: 1.23rem;
 }
+*/
 
 header{
     min-height: 10vh;
