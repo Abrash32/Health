@@ -1,0 +1,172 @@
+   *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+main{
+    background: linear-gradient(190deg, rgb(136, 183, 214), transparent);
+    min-height: 100vh;
+}
+
+.forhead{
+    position: relative;
+}
+
+.imgforhead{
+    height: 15vh;
+    background-image: url('../img/medical.jpg');
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 20%;
+}
+
+.flex{
+    display: flex;
+}
+
+.forhead .textforhead{
+    position: absolute;
+  top: 30%;
+  left: 50%;
+  color: rgb(52, 9, 240);
+  font-size: 2.6rem;
+  font-weight: 800;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+/*
+#herosection{
+    background-color: aqua;
+    
+}
+*/
+
+.container{
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 70vh;
+}
+
+.formbox{
+       margin-top: 2rem;
+        width: 40%;
+        background-color: #ffffff;
+        padding: 20px;
+}
+
+.formbox .text{
+   margin-left: auto;
+   margin-right: auto;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 20px;
+   color: blue;
+}
+
+.formbox .text h4{
+    font-size: 1.2rem;
+}
+
+.formbox h3{
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+fieldset{
+    width: 96%;
+}
+
+input[type="email"], 
+input[type="text"], select, input[type="number"],input[type="date"] ,
+button{
+   border-radius: 3px;
+   padding: 5px 15px;
+   margin-bottom: 10px;
+   width: 100%;
+  }
+
+.thefirst{
+    width: 100%;
+    
+}
+
+button {
+    margin-top: 10px;
+}
+
+#Firstname, #lastname{
+    width: 100%;
+}
+
+
+.btn-class{
+    background-color: blue;
+}
+
+.btn-class a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+}
+
+.footer{
+    flex-wrap: wrap;
+    padding-top: 2rem;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.box1, .box2{
+    margin-right: 5rem;
+}
+
+.footer h3{
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.footer .imgsect{
+    height: 10px;
+    margin: 10px;
+    color: blue;
+}
+
+.footer .textsecton h4{
+    color: black;
+    font-size: 1.25rem;
+    
+}
+
+.footer .textsecton p{
+    color: dimgrey;
+    font-size: 0.8rem;
+    padding: 5px;
+}
+
+.imgsect img{
+    height: 15px;
+    mix-blend-mode: color-burn;
+}
+
+.second img{
+    height: 40px;
+}
+
+.textsecton h3{
+    color: rgb(37, 37, 219);
+    font-size: 1.3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+/*
+.imgforhead img{
+    height: 40vh ;
+    width: 100%;
+}
